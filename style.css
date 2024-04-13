@@ -1,0 +1,583 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.oo{
+    width: 100vw;
+    height:600px;
+    background-color: #fff8f2;
+    position: relative;
+}
+.nav{
+    margin-left: 24px;
+    height: auto;
+    width: 325px;
+    position: absolute;
+}
+.logotype{
+    position: absolute;
+    top: 24px
+}
+.logotype a {
+    font-family: "figtree", sans-serif;
+    color: #4D463A;
+    font-weight: 350;
+    font-size: 18px;
+    font-optical-sizing: auto;
+    text-decoration: none;
+}
+.links{
+    position: absolute;
+    top: 275px;
+}
+.links ul li{
+    display: grid;
+    font-family: "figtree", sans-serif;
+    font-weight: 350;
+    font-size: 18px;
+    font-optical-sizing: auto;
+    text-align: left;
+    line-height: 40px;
+}
+.links ul li a{
+    color: #4D463A;
+    text-decoration: underline #4D463A00;
+    text-decoration-thickness: auto;
+    transition: color 300ms, text-decoration-color 300ms;
+    transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
+}
+.links ul li a:hover{
+    color: #4D463Ad7;
+    text-decoration: underline;
+    text-decoration-color: #4D463Aaf;
+    text-decoration-thickness: auto;
+}
+.contact{
+    font-family: "figtree", sans-serif;
+    font-weight: 350;
+    font-size: 18px;
+    font-optical-sizing: auto;
+    color: #4D463A;
+    position: absolute;
+    top: 550px;
+    text-decoration: underline #4D463A00;
+    text-decoration-thickness: auto;
+    transition: color 300ms, text-decoration-color 300ms;
+    transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
+}
+.contact a:hover{
+    color: #4D463Ad7;
+    text-decoration: underline;
+    text-decoration-color: #4D463Aaf;
+    text-decoration-thickness: auto;
+}
+.page0{
+    font-family: "figtree", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    font-optical-sizing: auto;
+    color: #4D463A;
+    position: absolute;
+    top: 22px;
+    left: 325px;
+}
+.text{
+    width: auto;
+    position: absolute;
+    left: 325px;
+    top: 185px;
+}
+.greet{
+    font-family: "figtree", sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    color: #1E1B17;
+}
+.karan{
+    font-family: "figtree", sans-serif;
+    font-size: 96px;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    color: #1E1B17;
+    position: relative;
+    top: -16px;
+    left: 150px;
+}
+.desig{
+    font-family: "figtree", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    color: #1E1B17;
+    position: relative;
+    left: 275px;
+    top: -16px;
+}
+.know{
+    position: absolute;
+    top: 528px;
+    left: 875px;
+}
+.knowmore{
+    font-family: "Figtree", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    color: #4D463A;
+    text-align: right;
+    position: relative;
+}
+span.arrow_insert {
+    font-family: "Material Symbols Rounded";
+    font-size: 24px;
+    font-weight: 350;
+    font-optical-sizing: auto;
+    color: #4D463A;
+    position: relative;
+    top: -25px;
+    left: 40px;
+}
+.profile{
+    width: auto;
+    height: 615px;
+    border-radius: 24px;
+    background-image: url("profile.jpg");
+    align-items: right;
+    position: absolute;
+    top: 24px;
+    left: 1030px;
+    right: 24px;
+}
+.o1{
+    width: 100vw;
+    height: 120px;
+    background-color: #FAF2EB;
+}
+.page{
+    font-family: "figtree", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    font-optical-sizing: auto;
+    color: #4D463A;
+    position: absolute;
+    top: 32px;
+}
+.content{
+    width: auto;
+    position: absolute;
+    left: 325px;
+    right: 24px;
+}
+.offering{
+    font-family: "figtree", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    color: #1E1B17;
+    position: relative;
+    top: 24px;
+}
+.o2{
+    width: 100vw;
+    height:650px;
+    padding-top: 32px;
+    background-color: #fff8f2;
+    position: relative;
+}
+.things{
+    font-family: "figtree", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    color: #4D463A;
+    position: relative;
+    top: 24px;
+}
+.things ul{
+    position: relative;
+    top: 72px;
+}
+.things ul li{
+    display: grid;
+    font-family: "figtree", sans-serif;
+    font-size: 96px;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    text-align: left;
+    line-height: 96px;
+}
+.things ul li a{
+    color: #1E1B17;
+    text-decoration: underline #1e1b1700;
+    text-decoration-thickness: 0.5rem;
+    transition: color 300ms, text-decoration-color 500ms;
+    transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
+}
+.things ul li a:hover{
+    color: #1e1b17af;
+    text-decoration-color: #1e1b17af;
+    text-decoration-thickness: 0.5rem;
+}
+.music{
+    font-family: "Figtree", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    color: #4D463A;
+    width: fit-content;
+    text-align: left;
+    position: relative;
+    top: 79px;
+    left: 598px;
+}
+.o3{
+    width: 100vw;
+    height: 660px;
+    background-color: #fff8f2;
+}
+.cardo3{
+    width: auto;
+    height: 620px;
+    border-radius: 24px;
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    background-color: #F3E1C3;
+}
+.tools{
+    font-family: "figtree", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    color: #534731e6;
+    position: relative;
+    top: 26px;
+    left: -16px;
+}
+.tools ul{
+    position: relative;
+    top: 64px;
+}
+.tools ul li{
+    display: grid;
+    font-family: "figtree", sans-serif;
+    font-size: 96px;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    text-align: left;
+    line-height: 96px;
+}
+.tools ul li a{
+    color: #534731;
+    text-decoration: underline #53473100;
+    text-decoration-thickness: 0.5rem;
+    transition: color 300ms, text-decoration-color 500ms;
+    transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
+}
+.tools ul li a:hover{
+    color: #534731af;
+    text-decoration-color: #534731af;
+    text-decoration-thickness: 0.5rem;
+
+}
+.everything{
+    font-family: "Figtree", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    color: #534731e6;
+    width: fit-content;
+    text-align: left;
+    position: relative;
+    top: 71px;
+    left: 750px;
+}
+#o4{
+    width: 100vw;
+    height:650px;
+    background-color: #fff8f2;
+    position: relative;
+}
+.experience{
+    font-family: "figtree", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    color: #1E1B17;
+    position: relative;
+    top: 24px;
+}
+.experience table{
+    text-align: left;
+    position: relative;
+    top: 96px;
+    line-height: 48px;
+}
+.experience table th{
+    font-family: "figtree", sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    vertical-align: bottom;
+    color: #1E1B17;
+    padding-right: 200px;
+    line-height: 48px;
+}
+.experience table td{
+    font-family: "figtree", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    vertical-align: bottom;
+    color: #4D463Ae6;
+    line-height: 48px;
+}
+.experience table td a{
+    font-family: "figtree", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    vertical-align: bottom;
+    text-decoration: none;
+    color: #4D463A;
+    text-decoration: underline #4D463A00;
+    text-decoration-thickness: auto;
+    transition: color 300ms, text-decoration-color 500ms;
+    transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
+}
+.experience table td a:hover{
+    color: #4D463Aaf;
+    text-decoration: underline;
+    text-decoration-color: #4D463Aaf;
+    text-decoration-thickness: auto;
+}
+#o5{
+    width: 100vw;
+    height:2000px;
+    background-color: #fff8f2;
+    position: relative;
+}
+.cardo5{
+    width: auto;
+    height: 1950px;
+    border-radius: 24px;
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    background-color: #F3E1C3;
+}
+.portf{
+    font-family: "figtree", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    color: #534731e6;
+    position: relative;
+    top: 26px;
+    left: -16px;
+}
+#o6{
+    width: 100vw;
+    height:480px;
+    background-color: #fff8f2;
+    position: relative;
+}
+.endor{
+    font-family: "figtree", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    color: #4D463A;
+    position: relative;
+    top: 24px;
+}
+.ecards{
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    top: 192px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+}
+.cardo6{
+    width: 480px;
+    height: 240px;
+    border-radius: 24px;
+    background-color: #F4EDE5;
+}
+.txt{
+    font-family: "figtree", sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    color: #1E1B17;
+    text-align: center;
+    padding: 24px;
+}
+.id{
+    font-family: "figtree", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    color: #1E1B17;
+    text-align: right;
+    padding-top: 16px;
+}
+.id span{
+    font-family: "figtree", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    color: #4D463A;
+}
+.id span a{
+    font-family: "figtree", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    color: #4D463A;
+    text-decoration: underline #4D463A00;
+    text-decoration-thickness: auto;
+    transition: color 300ms, text-decoration-color 500ms;
+    transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
+}
+.id span a:hover{
+    color: #4D463Aaf;
+    text-decoration: underline;
+    text-decoration-color: #4D463Aaf;
+    text-decoration-thickness: auto;
+}
+#o7{
+    width: 100vw;
+    height: 480px;
+    background-color: #4D463A;
+}
+.pageo7{
+    font-family: "figtree", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    font-optical-sizing: auto;
+    color: #D0C5B5;
+    position: absolute;
+    top: 32px;
+}
+.logotype7{
+    position: absolute;
+    top: 96px
+}
+.logotype7 a {
+    font-family: "figtree", sans-serif;
+    color: #E8E1DA;
+    font-weight: 500;
+    font-size: 64px;
+    font-optical-sizing: auto;
+    text-decoration: none;
+}
+.copy{
+    width: 325px;
+    font-family: "figtree", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    font-optical-sizing: auto;
+    color: #D0C5B5;
+    position: relative;
+    top: 420px;
+}
+.social{
+    font-family: "figtree", sans-serif;
+    color: #E8E1DA;
+    font-weight: 400;
+    font-size: 24px;
+    font-optical-sizing: auto;
+    position: absolute;
+    top: 144px;
+    left: 325px;   
+}
+.social ul li{
+    display: grid;
+    font-family: "figtree", sans-serif;
+    font-size: 18px;
+    font-weight: 3500;
+    font-optical-sizing: auto;
+    text-align: left;
+    line-height: 36px;
+    position: relative;
+    top: 64px;
+}
+.social ul li a{
+    color: #D0C5B5;
+    text-decoration: underline #D0C5B500;
+    transition: color 300ms, text-decoration-color 500ms;
+    transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
+}
+.social ul li a:hover{
+    color: #D0C5B5af;
+    text-decoration-color: #D0C5B5af;
+}
+.cont{
+    font-family: "figtree", sans-serif;
+    color: #E8E1DA;
+    font-weight: 400;
+    font-size: 24px;
+    font-optical-sizing: auto;
+    position: absolute;
+    top: 144px;
+    left: 600px;   
+}
+.cont ul li{
+    display: grid;
+    font-family: "figtree", sans-serif;
+    font-size: 18px;
+    font-weight: 3500;
+    font-optical-sizing: auto;
+    text-align: left;
+    line-height: 36px;
+    position: relative;
+    top: 64px;
+}
+.cont ul li a{
+    color: #D0C5B5;
+    text-decoration: underline #D0C5B500;
+    transition: color 300ms, text-decoration-color 500ms;
+    transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
+}
+.cont ul li a:hover{
+    color: #D0C5B5af;
+    text-decoration-color: #D0C5B5af;
+}
+.ref{
+    font-family: "figtree", sans-serif;
+    color: #E8E1DA;
+    font-weight: 400;
+    font-size: 24px;
+    font-optical-sizing: auto;
+    position: absolute;
+    top: 144px;
+    left: 875px;   
+}
+.ref ul li{
+    display: grid;
+    font-family: "figtree", sans-serif;
+    font-size: 18px;
+    font-weight: 3500;
+    font-optical-sizing: auto;
+    text-align: left;
+    line-height: 36px;
+    position: relative;
+    top: 64px;
+}
+.ref ul li a{
+    color: #D0C5B5;
+    text-decoration: underline #D0C5B500;
+    transition: color 300ms, text-decoration-color 500ms;
+    transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
+}
+.ref ul li a:hover{
+    color: #D0C5B5af;
+    text-decoration-color: #D0C5B5af;
+}
