@@ -105,6 +105,8 @@
     position: relative;
     top: -16px;
     left: 150px;
+    z-index: 2;
+    clip: rect(0px,60px,200px,0px);
 }
 .desig{
     font-family: "figtree", sans-serif;
@@ -131,6 +133,24 @@
     text-align: right;
     position: relative;
 }
+.knowmore a{
+    font-family: "Figtree", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    color: #4D463A;
+    text-decoration: underline #4D463A00;
+    text-decoration-thickness: auto;
+    transition: color 300ms, text-decoration-color 300ms;
+    transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
+}
+.knowmore a:hover{
+    color: #4D463Ad7;
+    text-decoration: underline;
+    text-decoration-color: #4D463Aaf;
+    text-decoration-thickness: auto;
+}
 span.arrow_insert {
     font-family: "Material Symbols Rounded";
     font-size: 24px;
@@ -138,19 +158,20 @@ span.arrow_insert {
     font-optical-sizing: auto;
     color: #4D463A;
     position: relative;
-    top: -25px;
-    left: 40px;
+    top: 7px;
 }
 .profile{
     width: auto;
     height: 615px;
-    border-radius: 24px;
-    background-image: url("profile.jpg");
-    align-items: right;
     position: absolute;
     top: 24px;
     left: 1030px;
     right: 24px;
+    border-radius: 24px;
+    display:block;
+    background-image: url('profile.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .o1{
     width: 100vw;
@@ -357,13 +378,13 @@ span.arrow_insert {
 }
 #o5{
     width: 100vw;
-    height:2000px;
+    height:500px;
     background-color: #fff8f2;
     position: relative;
 }
 .cardo5{
     width: auto;
-    height: 1950px;
+    height: 476px;
     border-radius: 24px;
     position: absolute;
     left: 16px;
@@ -382,7 +403,7 @@ span.arrow_insert {
 }
 #o6{
     width: 100vw;
-    height:480px;
+    height:724px;
     background-color: #fff8f2;
     position: relative;
 }
@@ -397,15 +418,15 @@ span.arrow_insert {
 }
 .ecards{
     position: absolute;
-    left: 16px;
     right: 16px;
-    top: 192px;
+    top: 144px;
     align-items: center;
     display: grid;
-    grid-template-columns: 500px 500px 500px;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 288px;
 }
 .cardo6{
-    width: 480px;
+    width: 572px;
     height: 240px;
     border-radius: 24px;
     background-color: #F4EDE5;
