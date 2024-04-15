@@ -1,6 +1,7 @@
 html {
 	scroll-behavior: smooth;
-}*{
+}
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -171,7 +172,7 @@ span.arrow_insert {
     right: 24px;
     border-radius: 24px;
     display:block;
-    background-image: url('profile.jpg');
+    background-image: url('img/profile.jpg');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -211,7 +212,17 @@ span.arrow_insert {
     width: 64px;
     height: 64px;
     border-radius: 32px;
-    background-color: ;
+    background-color: #48552A;
+}
+span.expand_less {
+    font-family: "Material Symbols Rounded";
+    font-size: 64px;
+    font-weight: 350;
+    font-optical-sizing: auto;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    bottom: 7px;
 }
 .o2{
     width: 100vw;
