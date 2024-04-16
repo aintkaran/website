@@ -1,28 +1,33 @@
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     max-width: 100%;
 }
-.oo{
+
+.oo {
     width: 100vw;
-    height:600px;
+    height: 600px;
     background-color: #fff8f2;
     position: relative;
 }
-.nav{
+
+.nav {
     margin-left: 24px;
     height: auto;
     width: 325px;
     position: absolute;
 }
-.logotype{
+
+.logotype {
     position: absolute;
     top: 24px
 }
+
 .logotype a {
     font-family: "figtree", sans-serif;
     color: #4D463A;
@@ -31,11 +36,13 @@ html {
     font-optical-sizing: auto;
     text-decoration: none;
 }
-.links{
+
+.links {
     position: absolute;
     top: 275px;
 }
-.links ul li{
+
+.links ul li {
     display: grid;
     font-family: "figtree", sans-serif;
     font-weight: 350;
@@ -44,20 +51,23 @@ html {
     text-align: left;
     line-height: 40px;
 }
-.links ul li a{
+
+.links ul li a {
     color: #4D463A;
     text-decoration: underline #4D463A00;
     text-decoration-thickness: auto;
     transition: color 300ms, text-decoration-color 300ms;
     transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
 }
-.links ul li a:hover{
+
+.links ul li a:hover {
     color: #4D463Ad7;
     text-decoration: underline;
     text-decoration-color: #4D463Aaf;
     text-decoration-thickness: auto;
 }
-.contact a{
+
+.contact a {
     font-family: "figtree", sans-serif;
     font-weight: 350;
     font-size: 18px;
@@ -70,13 +80,15 @@ html {
     transition: color 300ms, text-decoration-color 300ms;
     transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
 }
-.contact a:hover{
+
+.contact a:hover {
     color: #4D463Ad7;
     text-decoration: underline;
     text-decoration-color: #4D463Aaf;
     text-decoration-thickness: auto;
 }
-.page0{
+
+.page0 {
     font-family: "figtree", sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -86,20 +98,23 @@ html {
     top: 22px;
     left: 325px;
 }
-.text{
+
+.text {
     width: auto;
     position: absolute;
     left: 325px;
     top: 185px;
 }
-.greet{
+
+.greet {
     font-family: "figtree", sans-serif;
     font-size: 64px;
     font-weight: 500;
     font-optical-sizing: auto;
     color: #1E1B17;
 }
-.karan{
+
+.karan {
     font-family: "figtree", sans-serif;
     font-size: 96px;
     font-weight: 600;
@@ -110,7 +125,8 @@ html {
     left: 150px;
     z-index: 2;
 }
-.desig{
+
+.desig {
     font-family: "figtree", sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -120,12 +136,14 @@ html {
     left: 275px;
     top: -16px;
 }
-.know{
+
+.know {
     position: absolute;
     top: 528px;
     left: 875px;
 }
-.knowmore{
+
+.knowmore {
     font-family: "Figtree", sans-serif;
     font-size: 18px;
     line-height: 24px;
@@ -135,7 +153,8 @@ html {
     text-align: right;
     position: relative;
 }
-.knowmore a{
+
+.knowmore a {
     font-family: "Figtree", sans-serif;
     font-size: 18px;
     line-height: 24px;
@@ -147,12 +166,14 @@ html {
     transition: color 300ms, text-decoration-color 300ms;
     transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
 }
-.knowmore a:hover{
+
+.knowmore a:hover {
     color: #4D463Ad7;
     text-decoration: underline;
     text-decoration-color: #4D463Aaf;
     text-decoration-thickness: auto;
 }
+
 span.arrow_insert {
     font-family: "Material Symbols Rounded";
     font-size: 24px;
@@ -163,7 +184,8 @@ span.arrow_insert {
     top: 7px;
     padding-right: 5px;
 }
-.profile{
+
+.profile {
     width: auto;
     height: 615px;
     position: absolute;
@@ -171,17 +193,19 @@ span.arrow_insert {
     left: 1030px;
     right: 24px;
     border-radius: 24px;
-    display:block;
+    display: block;
     background-image: url('img/profile.jpg');
     background-repeat: no-repeat;
     background-position: center;
 }
-.o1{
+
+.o1 {
     width: 100vw;
     height: 120px;
     background-color: #FAF2EB;
 }
-.page{
+
+.page {
     font-family: "figtree", sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -190,13 +214,15 @@ span.arrow_insert {
     position: absolute;
     top: 32px;
 }
-.content{
+
+.content {
     width: auto;
     position: absolute;
     left: 325px;
     right: 24px;
 }
-.offering{
+
+.offering {
     font-family: "figtree", sans-serif;
     font-size: 32px;
     font-weight: 500;
@@ -205,7 +231,8 @@ span.arrow_insert {
     position: relative;
     top: 24px;
 }
-.scrollup{
+
+.scrollup {
     position: fixed;
     bottom: 16px;
     right: 16px;
@@ -214,6 +241,7 @@ span.arrow_insert {
     border-radius: 32px;
     background-color: #48552A;
 }
+
 span.expand_less {
     font-family: "Material Symbols Rounded";
     font-size: 64px;
@@ -224,14 +252,16 @@ span.expand_less {
     position: relative;
     bottom: 7px;
 }
-.o2{
+
+.o2 {
     width: 100vw;
-    height:650px;
+    height: 650px;
     padding-top: 32px;
     background-color: #fff8f2;
     position: relative;
 }
-.things{
+
+.things {
     font-family: "figtree", sans-serif;
     font-size: 32px;
     font-weight: 400;
@@ -240,11 +270,13 @@ span.expand_less {
     position: relative;
     top: 24px;
 }
-.things ul{
+
+.things ul {
     position: relative;
     top: 72px;
 }
-.things ul li{
+
+.things ul li {
     display: grid;
     font-family: "figtree", sans-serif;
     font-size: 96px;
@@ -253,19 +285,22 @@ span.expand_less {
     text-align: left;
     line-height: 96px;
 }
-.things ul li a{
+
+.things ul li a {
     color: #1E1B17;
     text-decoration: underline #1e1b1700;
     text-decoration-thickness: 0.5rem;
     transition: color 300ms, text-decoration-color 500ms;
     transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
 }
-.things ul li a:hover{
+
+.things ul li a:hover {
     color: #1e1b17af;
     text-decoration-color: #1e1b17af;
     text-decoration-thickness: 0.5rem;
 }
-.music{
+
+.music {
     font-family: "Figtree", sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -277,12 +312,14 @@ span.expand_less {
     top: 79px;
     left: 598px;
 }
-.o3{
+
+.o3 {
     width: 100vw;
     height: 660px;
     background-color: #fff8f2;
 }
-.cardo3{
+
+.cardo3 {
     width: auto;
     height: 620px;
     border-radius: 24px;
@@ -291,7 +328,8 @@ span.expand_less {
     right: 16px;
     background-color: #F3E1C3;
 }
-.tools{
+
+.tools {
     font-family: "figtree", sans-serif;
     font-size: 32px;
     font-weight: 400;
@@ -301,11 +339,13 @@ span.expand_less {
     top: 26px;
     left: -16px;
 }
-.tools ul{
+
+.tools ul {
     position: relative;
     top: 64px;
 }
-.tools ul li{
+
+.tools ul li {
     display: grid;
     font-family: "figtree", sans-serif;
     font-size: 96px;
@@ -314,20 +354,23 @@ span.expand_less {
     text-align: left;
     line-height: 96px;
 }
-.tools ul li a{
+
+.tools ul li a {
     color: #534731;
     text-decoration: underline #53473100;
     text-decoration-thickness: 0.5rem;
     transition: color 300ms, text-decoration-color 500ms;
     transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
 }
-.tools ul li a:hover{
+
+.tools ul li a:hover {
     color: #534731af;
     text-decoration-color: #534731af;
     text-decoration-thickness: 0.5rem;
 
 }
-.everything{
+
+.everything {
     font-family: "Figtree", sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -339,13 +382,15 @@ span.expand_less {
     top: 71px;
     left: 750px;
 }
-#o4{
+
+#o4 {
     width: 100vw;
-    height:650px;
+    height: 650px;
     background-color: #fff8f2;
     position: relative;
 }
-.experience{
+
+.experience {
     font-family: "figtree", sans-serif;
     font-size: 32px;
     font-weight: 400;
@@ -354,13 +399,15 @@ span.expand_less {
     position: relative;
     top: 24px;
 }
-.experience table{
+
+.experience table {
     text-align: left;
     position: relative;
     top: 96px;
     line-height: 48px;
 }
-.experience table th{
+
+.experience table th {
     font-family: "figtree", sans-serif;
     font-size: 36px;
     font-weight: 500;
@@ -370,7 +417,8 @@ span.expand_less {
     padding-right: 200px;
     line-height: 48px;
 }
-.experience table td{
+
+.experience table td {
     font-family: "figtree", sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -379,7 +427,8 @@ span.expand_less {
     color: #4D463Ae6;
     line-height: 48px;
 }
-.experience table td a{
+
+.experience table td a {
     font-family: "figtree", sans-serif;
     font-size: 24px;
     font-weight: 500;
@@ -392,19 +441,22 @@ span.expand_less {
     transition: color 300ms, text-decoration-color 500ms;
     transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
 }
-.experience table td a:hover{
+
+.experience table td a:hover {
     color: #4D463Aaf;
     text-decoration: underline;
     text-decoration-color: #4D463Aaf;
     text-decoration-thickness: auto;
 }
-#o5{
+
+#o5 {
     width: 100vw;
-    height:500px;
+    height: 500px;
     background-color: #fff8f2;
     position: relative;
 }
-.cardo5{
+
+.cardo5 {
     width: auto;
     height: 476px;
     border-radius: 24px;
@@ -413,7 +465,8 @@ span.expand_less {
     right: 16px;
     background-color: #F3E1C3;
 }
-.portf{
+
+.portf {
     font-family: "figtree", sans-serif;
     font-size: 32px;
     font-weight: 400;
@@ -423,7 +476,8 @@ span.expand_less {
     top: 26px;
     left: -16px;
 }
-.gallery{
+
+.gallery {
     height: auto;
     position: absolute;
     top: 96px;
@@ -431,16 +485,19 @@ span.expand_less {
     overflow: auto;
     white-space: nowrap;
 }
-.gallery img{
+
+.gallery img {
     border-radius: 8px;
 }
-#o6{
+
+#o6 {
     width: 100vw;
-    height:724px;
+    height: 724px;
     background-color: #fff8f2;
     position: relative;
 }
-.endor{
+
+.endor {
     font-family: "figtree", sans-serif;
     font-size: 32px;
     font-weight: 400;
@@ -449,7 +506,8 @@ span.expand_less {
     position: relative;
     top: 24px;
 }
-.ecards{
+
+.ecards {
     position: absolute;
     right: 16px;
     top: 144px;
@@ -458,13 +516,15 @@ span.expand_less {
     grid-template-columns: 600px 600px;
     grid-template-rows: 288px;
 }
-.cardo6{
+
+.cardo6 {
     width: 572px;
     height: 240px;
     border-radius: 24px;
     background-color: #F4EDE5;
 }
-.txt{
+
+.txt {
     font-family: "figtree", sans-serif;
     font-size: 36px;
     font-weight: 500;
@@ -473,7 +533,8 @@ span.expand_less {
     text-align: center;
     padding: 24px;
 }
-.id{
+
+.id {
     font-family: "figtree", sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -482,14 +543,16 @@ span.expand_less {
     text-align: right;
     padding-top: 16px;
 }
-.id span{
+
+.id span {
     font-family: "figtree", sans-serif;
     font-size: 18px;
     font-weight: 400;
     font-optical-sizing: auto;
     color: #4D463A;
 }
-.id span a{
+
+.id span a {
     font-family: "figtree", sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -500,18 +563,21 @@ span.expand_less {
     transition: color 300ms, text-decoration-color 500ms;
     transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
 }
-.id span a:hover{
+
+.id span a:hover {
     color: #4D463Aaf;
     text-decoration: underline;
     text-decoration-color: #4D463Aaf;
     text-decoration-thickness: auto;
 }
-#o7{
+
+#o7 {
     width: 100vw;
     height: 480px;
     background-color: #4D463A;
 }
-.pageo7{
+
+.pageo7 {
     font-family: "figtree", sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -520,10 +586,12 @@ span.expand_less {
     position: absolute;
     top: 32px;
 }
-.logotype7{
+
+.logotype7 {
     position: absolute;
     top: 96px
 }
+
 .logotype7 a {
     font-family: "figtree", sans-serif;
     color: #E8E1DA;
@@ -532,7 +600,8 @@ span.expand_less {
     font-optical-sizing: auto;
     text-decoration: none;
 }
-.copy{
+
+.copy {
     width: 325px;
     font-family: "figtree", sans-serif;
     font-weight: 300;
@@ -542,7 +611,8 @@ span.expand_less {
     position: relative;
     top: 420px;
 }
-.social{
+
+.social {
     font-family: "figtree", sans-serif;
     color: #E8E1DA;
     font-weight: 400;
@@ -550,9 +620,10 @@ span.expand_less {
     font-optical-sizing: auto;
     position: absolute;
     top: 144px;
-    left: 325px;   
+    left: 325px;
 }
-.social ul li{
+
+.social ul li {
     display: grid;
     font-family: "figtree", sans-serif;
     font-size: 18px;
@@ -563,17 +634,20 @@ span.expand_less {
     position: relative;
     top: 64px;
 }
-.social ul li a{
+
+.social ul li a {
     color: #D0C5B5;
     text-decoration: underline #D0C5B500;
     transition: color 300ms, text-decoration-color 500ms;
     transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
 }
-.social ul li a:hover{
+
+.social ul li a:hover {
     color: #D0C5B5af;
     text-decoration-color: #D0C5B5af;
 }
-.cont{
+
+.cont {
     font-family: "figtree", sans-serif;
     color: #E8E1DA;
     font-weight: 400;
@@ -581,9 +655,10 @@ span.expand_less {
     font-optical-sizing: auto;
     position: absolute;
     top: 144px;
-    left: 600px;   
+    left: 600px;
 }
-.cont ul li{
+
+.cont ul li {
     display: grid;
     font-family: "figtree", sans-serif;
     font-size: 18px;
@@ -594,17 +669,20 @@ span.expand_less {
     position: relative;
     top: 64px;
 }
-.cont ul li a{
+
+.cont ul li a {
     color: #D0C5B5;
     text-decoration: underline #D0C5B500;
     transition: color 300ms, text-decoration-color 500ms;
     transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
 }
-.cont ul li a:hover{
+
+.cont ul li a:hover {
     color: #D0C5B5af;
     text-decoration-color: #D0C5B5af;
 }
-.ref{
+
+.ref {
     font-family: "figtree", sans-serif;
     color: #E8E1DA;
     font-weight: 400;
@@ -612,9 +690,10 @@ span.expand_less {
     font-optical-sizing: auto;
     position: absolute;
     top: 144px;
-    left: 875px;   
+    left: 875px;
 }
-.ref ul li{
+
+.ref ul li {
     display: grid;
     font-family: "figtree", sans-serif;
     font-size: 18px;
@@ -625,23 +704,27 @@ span.expand_less {
     position: relative;
     top: 64px;
 }
-.ref ul li a{
+
+.ref ul li a {
     color: #D0C5B5;
     text-decoration: underline #D0C5B500;
     transition: color 300ms, text-decoration-color 500ms;
     transition-timing-function: cubic-bezier(0.05, 0.7, 0.1, 1.0);
 }
-.ref ul li a:hover{
+
+.ref ul li a:hover {
     color: #D0C5B5af;
     text-decoration-color: #D0C5B5af;
 }
-.aboutme{
+
+.aboutme {
     width: 100vw;
-    height:840px;
+    height: 840px;
     background-color: #fff8f2;
     position: relative;
 }
-.hey{
+
+.hey {
     font-family: "figtree", sans-serif;
     font-size: 144px;
     font-weight: 600;
@@ -650,6 +733,7 @@ span.expand_less {
     position: relative;
     top: 36px;
 }
+
 .marquee {
     position: relative;
     width: 100vw;
@@ -657,17 +741,20 @@ span.expand_less {
     height: 200px;
     overflow-x: hidden;
 }
+
 .track {
     position: relative;
     white-space: nowrap;
     will-change: transform;
     animation: marquee 5s linear infinite;
-}  
-@keyframes marquee {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
 }
-.pageab{
+
+@keyframes marquee {
+    from {transform: translateX(0);}
+    to {transform: translateX(-50%);}
+}
+
+.pageab {
     font-family: "figtree", sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -676,7 +763,8 @@ span.expand_less {
     position: relative;
     top: 264px;
 }
-.brief{
+
+.brief {
     font-family: "figtree", sans-serif;
     font-size: 32px;
     font-weight: 400;
@@ -685,7 +773,8 @@ span.expand_less {
     position: relative;
     top: 48px;
 }
-.para{
+
+.para {
     font-family: "figtree", sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -697,7 +786,8 @@ span.expand_less {
     max-width: 640px;
     padding-bottom: 18px;
 }
-.para span{
+
+.para span {
     font-family: "figtree", sans-serif;
     font-weight: 650;
     font-size: 18px;
@@ -705,21 +795,24 @@ span.expand_less {
     line-height: 24px;
     color: #1e1b17;
 }
-.cov{
+
+.cov {
     width: 100vw;
     height: 582px;
     background-color: #fff8f2;
 }
-.cover{
+
+.cover {
     width: 100vw;
     height: 500px;
-    display:block;
+    display: block;
     background-image: url(cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.copyab{
+
+.copyab {
     width: 325px;
     font-family: "figtree", sans-serif;
     font-weight: 300;
@@ -728,4 +821,29 @@ span.expand_less {
     color: #4D463A;
     position: relative;
     top: 18px;
+}
+
+.pfolio {
+    width: 100vw;
+    height: 1900px;
+    background-color: #fff8f2;
+    position: relative;
+}
+
+.row {
+    position: relative;
+    top: 144px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 33%;
+    padding: 8px;
+}
+
+.column img {
+    vertical-align: middle;
+    border-radius: 16px;
+    margin-top: 16px;
 }
