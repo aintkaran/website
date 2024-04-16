@@ -750,8 +750,13 @@ span.expand_less {
 }
 
 @keyframes marquee {
-    from {transform: translateX(0);}
-    to {transform: translateX(-50%);}
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
 }
 
 .pageab {
@@ -842,8 +847,33 @@ span.expand_less {
     padding: 8px;
 }
 
-.column img {
+.image {
     vertical-align: middle;
     border-radius: 16px;
     margin-top: 16px;
+    cursor: pointer;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.image:hover .overlay {
+    opacity: 1;
+}
+
+.imagetext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
