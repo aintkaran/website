@@ -811,7 +811,7 @@ span.expand_less {
     width: 100vw;
     height: 500px;
     display: block;
-    background-image: url(cover.jpg);
+    background-image: url(img/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
